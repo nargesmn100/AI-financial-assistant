@@ -1,0 +1,106 @@
+{
+    
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": [
+          "Hey", "Hello", "Hi", "What's up?", "Good morning", "Good afternoon",
+          "Good evening", "Howdy", "Hey there", "Greetings", "Hi there",
+          "Hello there", "How’s it going?", "How are you?", "Hey! How’s everything?"
+        ],
+        "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Hey! Need any help?"]
+      },
+      {
+        "tag": "plot_chart",
+        "patterns": [
+          "Can you plot a stock price for me?", "Please plot a stock chart",
+          "I need you to create a chart for stock prices", "Plot a stock price", 
+          "Show me a graph of the stock", "Make a chart of the stock's trend",
+          "Display a stock chart", "Generate a chart for a specific stock", 
+          "Can you visualize a stock price?", "Create a chart for the stock price"
+        ],
+        "responses": ["Plotting the stock chart for you!", "Here's the chart you requested!", "Generating the stock price chart..."]
+      },
+      {
+        "tag": "add_portfolio",
+        "patterns": [
+          "Add this stock to my portfolio", "Please include this stock in my portfolio",
+          "Can you add a stock to my portfolio?", "I want to add a new stock", 
+          "Add a stock to my portfolio", "Include this stock in my list", 
+          "Save this stock in my portfolio", "Add a new stock to my investments", 
+          "Add this to my portfolio", "Include this in my stock list"
+        ],
+        "responses": ["Adding the stock to your portfolio.", "Stock successfully added to your portfolio.", "This stock is now part of your portfolio."]
+      },
+      {
+        "tag": "remove_portfolio",
+        "patterns": [
+          "Remove a stock from my portfolio", "Delete a stock from my portfolio", 
+          "Can you remove a stock?", "I want to delete a stock from my list", 
+          "Please remove a stock from my portfolio", "Remove this from my portfolio", 
+          "Take a stock out of my investments", "Get rid of this stock from my list", 
+          "Discard this stock from my portfolio", "I want to remove this stock"
+        ],
+        "responses": ["Removing the stock from your portfolio.", "Stock removed from your portfolio.", "The stock has been deleted from your portfolio."]
+      },
+      {
+        "tag": "show_portfolio",
+        "patterns": [
+          "Show me my portfolio", "Can I see my investments?", 
+          "Display my portfolio", "What stocks are in my portfolio?", 
+          "Show my stock list", "Display my investments", 
+          "Show me the stocks I own", "List my portfolio stocks", 
+          "What does my portfolio look like?", "Tell me about my portfolio"
+        ],
+        "responses": ["Displaying your portfolio.", "Here is your current portfolio.", "These are the stocks in your portfolio."],
+        "context_set": "" 
+      },
+      {
+        "tag": "check_stock_price",
+        "patterns": [
+          "Check the price of a stock", "What’s the current price of this stock?", 
+          "Tell me the stock price", "How much is this stock?", 
+          "What is the price of this stock?", "Show me the stock price", 
+          "Find out the stock’s price", "What’s the stock price at the moment?", 
+          "Give me the latest price of the stock", "I want to know the price of a stock"
+        ],
+        "responses": ["Fetching the current price of the stock.", "Here's the latest stock price.", "Showing you the stock's current price."],
+        "context_set": "" 
+      },
+      {
+        "tag": "portfolio_worth",
+        "patterns": [
+          "How much is my portfolio worth?", "What is the value of my portfolio?", 
+          "Can you show me the worth of my portfolio?", "How valuable is my portfolio?", 
+          "Tell me my portfolio's value", "What’s the total worth of my portfolio?", 
+          "How much are my investments worth?", "What is my portfolio's value?", 
+          "Can I know the worth of my portfolio?", "Show me my portfolio's total value"
+        ],
+        "responses": ["Your portfolio is worth the following amount:", "Here’s the current value of your portfolio.", "Showing your portfolio’s worth."],
+        "context_set": "" 
+      },
+      {
+        "tag": "portfolio_gains",
+        "patterns": [
+          "How is my portfolio performing?", "How are my gains?", 
+          "Am I in the green?", "Am I making a profit?", 
+          "What are my portfolio gains?", "Is my portfolio gaining value?", 
+          "Are my investments profitable?", "How much profit have I made?", 
+          "Show me my portfolio growth", "Tell me about my gains"
+        ],
+        "responses": ["Here are your portfolio gains.", "Displaying your portfolio's performance.", "These are your current gains."],
+        "context_set": "" 
+      },
+      {
+        "tag": "bye",
+        "patterns": [
+          "bye", "goodbye", "stop", "I have to go", "end", 
+          "See you later", "Catch you later", "Take care", 
+          "I'm done", "That's all for now"
+        ],
+        "responses": ["Goodbye! Have a great day!", "See you later!", "Take care! Come back if you need more help."],
+        "context_set": "" 
+      }
+    ]
+  }
+  
